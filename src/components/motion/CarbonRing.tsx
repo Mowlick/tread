@@ -92,7 +92,8 @@ export function CarbonRing({
             strokeDashoffset={strokeDashoffset}
             strokeLinecap="round"
             rotation="-90"
-            origin={`${center}, ${center}`}
+            originX={center}
+            originY={center}
           />
         </Svg>
 
